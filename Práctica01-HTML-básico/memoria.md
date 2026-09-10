@@ -1,5 +1,5 @@
-###Comienzo 2 CFGM de SMX
-##Asignaturas
+### Asignaturas
+## 2 CFGM SMX
 - Elemento 1
 - Elemento 2
 - Elemento 3
