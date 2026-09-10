@@ -1,1 +1,4 @@
-Añadida memoria práctica 1.
+**###Comienzo 2 CFGM de SMX
+*##Asignaturas
+-IP2
+-MME
