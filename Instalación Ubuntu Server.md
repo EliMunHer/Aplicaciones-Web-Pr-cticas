@@ -19,7 +19,11 @@ A partir de ahí, te da tres opciones. Alguna tiene que decir algo parecido a: "
 Acto seguido, te pedirá escoger el idioma. Busca "Español", o "Spanish".
 
 Entonces, te saldrá algo similar a:
+
 `Actualizar al instalador nuevo`
+
 `Continuar sin actualizar`
+
 `Atrás`
+
 Puedes pulsar la primera opción, "Actualizar al instalador nuevo".
