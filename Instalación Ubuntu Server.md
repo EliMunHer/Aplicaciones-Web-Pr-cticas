@@ -29,3 +29,109 @@ Entonces, te saldrá algo similar a:
 `Atrás`
 
 Puedes pulsar la primera opción, "Actualizar al instalador nuevo".
+
+Tras actualizarse, pedirá el idioma del teclado. 
+
+Escoge `Done`.
+*Enter*
+
+Ahora debes escoger el tipo de instalación. Te dará tres opciones:
+
+1. ` [X] Ubuntu Server`
+2. ` [ ] Ubuntu Server (minimized)`
+3. ` [ ] Additional options`
+
+Queremos la primera opción. Predeterminadamente, estará pulsada,lo sabrás por esa "X" entre los [].
+
+Escoge `Done`.
+*Enter*
+
+**"Network Configuration"**
+
+Escoge `Done`.
+*Enter*
+
+**"Proxy configuration"**
+
+Puedes  dejarlos en blanco.
+
+Escoge `Done`.
+*Enter*
+
+**"Ubuntu archive mirror configuration"**
+
+Escoge `Done`.
+*Enter*
+
+**"Guided storage configuration"**
+
+Comprueba que solo esté pulsada la opción:
+
+`Use an entire disk`
+
+Puede que se te escoja otra también, pero desmárcala. 
+
+Escoge `Done`.
+*Enter*
+
+**"Storage configuration"**
+
+Escoge `Done`.
+*Enter*
+
+**"Confirm destructive action"**
+
+Escoge `Continue`
+*Enter*
+
+**"Profile configuration"**
+
+Puedes rellenar los huecos con la siguiente información.
+Eloise
+`Your name:` Eliseo
+
+`Your servers name:` ubuntu_server
+
+`Pick a username:` eliseo07
+
+`Choose a password:` 20072005
+
+`Confirm your password:` 20072005
+
+**"Upgrade to Ubuntu Pro"**
+
+Puedes marcar la opción `Skip for now`
+
+Escoge `Done`.
+*Enter*
+
+**"SSH configuration"**
+
+Marca la opción `Install OpenSSH server`
+
+Escoge `Done`.
+*Enter*
+
+**"Featured server snaps"**
+
+Escoge `Done`.
+*Enter*
+
+Nos deja instalar "paquetes" adicionales, pero no hace falta que lo hagamos.
+
+**"Installing system..."**
+
+**"Updating system..."**
+
+**"Installation complete!""**
+
+Escoge `Reboot Now`
+*Enter*
+
+Seguramente te saldrá un error.
+
+`[FAILED] Failed unmounting cdrom-mount - /cdrom.`
+
+Reiniciamos la máquina.
+
+Al encender la máquina, te pedirá nombre de usuario, y luego la contraseña.
