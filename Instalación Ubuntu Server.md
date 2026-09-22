@@ -135,3 +135,51 @@ Seguramente te saldrá un error.
 Reiniciamos la máquina.
 
 Al encender la máquina, te pedirá nombre de usuario, y luego la contraseña.
+
+### Configurar las interfaces de red
+
+En Oracle VirtualBox:
+
+Parámetros>Red>Adaptador 1
+
+Marca la casilla "Habilitar adaptador de red", y en "Conectado a", selecciona NAT.
+
+...
+
+Iniciamos la máquina virtual, y entramos en nuestro usuario.
+
+Entonces, para comprobar el fichero al que has de acceder, puedes escribir:
+
+`ls /etc/netplan`
+
+Te responderá algo parecido a:
+
+`50-cloud-init.yaml`
+
+Así que ese es el fichero que buscamos.
+
+Escribimos:
+
+`sudo nano /etc/netplan/50-cloud-init.yaml`
+
+Puedes usar `TAB` para ayudarte.
+
+### Conectarse por SSH
+
+Abre la terminal del sistema operativo anfitrión. 
+
+Puedes comprobar si tienes conexión con la MV haciendo un ping. Ejemplo:
+
+`Ping 192.168.56.10`
+
+Entonces, si todo está correcto, escribe el siguiente comando:
+
+`ssh (usuario_MV)@(direccciónIP)`
+
+En mi caso, por ejemplo es:
+
+`ssh eliseo07@192.168.56.10`
+
+Debe pedirte algo de una clave, acéptala.
+
+Y a continuación debería pedirte la contraseña.
