@@ -1,5 +1,5 @@
 # Instalación Ubuntu Server
-### Crear la máquina virtual
+### 1. Crear la máquina virtual
 1.  Abrimos Virtual Box.
 2.  Arriba a la derecha, hacemos clic en "Nueva".
 3.  Cambiamos el nombre (Por ejemplo, "UbuntuServer_Examen_AWE").
@@ -13,7 +13,7 @@
 8. Volvemos a pulsar en "Endavant".
 9. Pulsamos en "Finish".
 
-### Arrancar la máquina virtual
+### 2. Arrancar la máquina virtual
 
 **Si da error, posiblemente debas comprobar las versiones de Oracle VirtualBox. Aunque puedes probar eliminando la máquina virtual, y haciendo otra exactamente igual.**
 
