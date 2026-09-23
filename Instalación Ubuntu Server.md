@@ -136,7 +136,7 @@ Reiniciamos la máquina.
 
 Al encender la máquina, te pedirá nombre de usuario, y luego la contraseña.
 
-### Configurar las interfaces de red
+### 3. Configurar las interfaces de red
 
 En Oracle VirtualBox:
 
@@ -164,7 +164,7 @@ Escribimos:
 
 Puedes usar `TAB` para ayudarte.
 
-### Conectarse por SSH
+### 4. Conectarse por SSH
 
 Abre la terminal del sistema operativo anfitrión. 
 
