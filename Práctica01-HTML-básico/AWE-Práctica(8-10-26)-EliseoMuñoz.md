@@ -5,11 +5,16 @@ Suele utilizarse para alojar páginas web, bases de datos, aplicaciones y servic
 Es gratuito, seguro, estable y de código abierto. 
 ## 2. Montaje de la máquina virtual en VirtualBox.
 Para montar la máquina virtual con el SO Ubuntu Server, el proceso fue muy sencillo. Dentro de la interfaz gráfica de Oracle VirtualBox, se pulsa "Nova", "New" o "Nueva". Ahí es donde se ajustan los parámetros de la máquina virtual que quieres montar.
+
 Yo, primero, puse el nombre: "UbuntuServer_AWE", y el siguiente paso fue escoger el archivo ISO que la máquina utilizaría para instalar el sistema operativo, en mi caso, "Ubuntu Server 24.10".
 Entonces ajusté los parámetros del hardware que usará la máquina virtual, de modo que quedó así:
+
 `Memoria base:` 2048 MB.
+
 `Procesadores:` 2.
+
 `Disco duro:` 25 GB.
+
 Luego configuré 2 adaptadores de red.
 1. El primero en modo NAT, para que pueda salir a Internet desde el router.
 2. El segundo en modo Red solo anfitrión, para comunicarse con el ordenador anfitrión y otras máquinas virtuales, sin exponerlas directamente a Internet.
