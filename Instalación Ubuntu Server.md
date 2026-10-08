@@ -1,4 +1,9 @@
 # Instalación Ubuntu Server
+
+## ¿Qué es Ubuntu Server?
+
+Ubuntu Server es una distribución basada en Linux
+
 ### 1. Crear la máquina virtual
 1.  Abrimos Virtual Box.
 2.  Arriba a la derecha, hacemos clic en "Nueva".
@@ -87,7 +92,7 @@ Escoge `Continue`
 **"Profile configuration"**
 
 Puedes rellenar los huecos con la siguiente información.
-Eloise
+
 `Your name:` Eliseo
 
 `Your servers name:` ubuntu_server
@@ -131,8 +136,9 @@ Escoge `Reboot Now`
 Seguramente te saldrá un error.
 
 `[FAILED] Failed unmounting cdrom-mount - /cdrom.`
+Puedes probar pulsando ENTER.
 
-Reiniciamos la máquina.
+Si no, reinicia la máquina.
 
 Al encender la máquina, te pedirá nombre de usuario, y luego la contraseña.
 
