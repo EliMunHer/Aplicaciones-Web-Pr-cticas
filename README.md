@@ -4,4 +4,5 @@
 
 ## Índice
 
-1. [Instalación Ubuntu Server](Instalación Ubuntu Server.md)
+1. [Instalación Ubuntu Server](https://github.com/EliMunHer/Aplicaciones-Web-Pr-cticas/blob/main/Instalaci%C3%B3n%20Ubuntu%20Server.md)
+2. [Práctica 8-10-26](https://github.com/EliMunHer/Aplicaciones-Web-Pr-cticas/blob/main/Pr%C3%A1ctica01-HTML-b%C3%A1sico/AWE-Pr%C3%A1ctica(8-10-26)-EliseoMu%C3%B1oz.md)
