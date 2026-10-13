@@ -279,6 +279,7 @@ Desde la segunda VM, verificamos que podemos alcanzar la primera:
 ```bash
 ping -c 3 192.168.56.10
 ```
+**Importante:** ambas máquinas virtuales deben estar conectadas a la misma red Host-only para poder comunicarse. Además, cada una debe tener una dirección IP diferente dentro del mismo rango. Tener las dos máquinas encendidas no garantiza que puedan comunicarse entre sí.
 
 ### Modificar el archivo hosts
 
