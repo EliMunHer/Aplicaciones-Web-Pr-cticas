@@ -1,4 +1,14 @@
-### Instalación MariaDB
+# Instalación MariaDB
+
+## Índice
+
+1. [Instalación del sistema](#1-instalación-del-sistema)
+2. [Instalación de MariaDB](#2-instalación-de-mariadb)
+3. [Comprobamos que MariaDB esté en funcionamiento](#3-comprobamos-que-mariadb-esté-en-funcionamiento)
+4. [¿Qué pasa si MariaDB está parado?](#4-qué-pasa-si-mariadb-está-parado)
+5. [Instalación de PHP](#5-instalación-de-php)
+6. [Comprobación final](#6-comprobación-final)
+7. [Conclusión](#7-conclusión)
 
 ## 1. Instalación del sistema
 
