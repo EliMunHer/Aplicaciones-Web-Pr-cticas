@@ -1,2 +1,7 @@
-# Aplicaciones-Web-Pr-cticas
-Aquí es donde almacenaré todo el trabajo que iré haciendo en el módulo.
+# Aplicaciones-Web-Prácticas
+
+## Nombre: Eliseo Muñoz
+
+## Índice
+
+1. [Instalación Ubuntu Server](Instalación Ubuntu Server.md)
