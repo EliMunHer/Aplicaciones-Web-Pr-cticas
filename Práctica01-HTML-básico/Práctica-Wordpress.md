@@ -20,4 +20,6 @@ ls /etc/apache2/sites-enabled/
 grep Listen /etc/apache2/ports.conf
 ```
 
-![Respuesta de los comandos:](/Aplicaciones-Web-Pr-cticas/Práctica01-HTML-básico/AWE_CAP1.png)
+![Respuesta de los comandos:](/images/AWE_CAP1.png)
+
+
