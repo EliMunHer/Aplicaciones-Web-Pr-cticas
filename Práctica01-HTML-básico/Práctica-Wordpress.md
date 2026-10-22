@@ -1,6 +1,6 @@
-# Instalación WordPress
+# Instalación Wordpress
 
-## 1. Comprobar el punto de partida.
+## 1. Compruebo el punto de partida.
 
 Compruebo que LAMP funciona, y además apunto qué sitios tengo. Ejecuto:
 
@@ -22,4 +22,12 @@ grep Listen /etc/apache2/ports.conf
 
 ![Respuesta de los comandos:](/images/AWE_CAP1.png)
 
+## 2. Creo la base de datos y el usuario.
 
+## 3. Descargo Wordpress y lo coloco en su carpeta.
+
+## 4. Propietario y permisos.
+
+## 5. Creo el VirtualHost de Wordpress.
+
+## 6. Instalación desde el navegador.
