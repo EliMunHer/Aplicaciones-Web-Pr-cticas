@@ -1,5 +1,10 @@
 # Instalación Wordpress
 
+Eliseo Muñoz Hernández | 2 CFGM de SMX (vesprada)
+
+AWE
+
+Fecha: 22-10-26
 ## 1. Compruebo el punto de partida.
 
 Compruebo que LAMP funciona, y además apunto qué sitios tengo. Ejecuto:
@@ -20,7 +25,7 @@ ls /etc/apache2/sites-enabled/
 grep Listen /etc/apache2/ports.conf
 ```
 
-![Respuesta de los comandos:](/images/AWE_CAP1.png)
+![Respuesta de los comandos:](/AWE_CAP1.png)
 
 ## 2. Creo la base de datos y el usuario.
 
