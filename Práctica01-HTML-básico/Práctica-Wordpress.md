@@ -25,7 +25,7 @@ ls /etc/apache2/sites-enabled/
 grep Listen /etc/apache2/ports.conf
 ```
 
-![Respuesta de los comandos:](Aplicaciones-Web-Prácticas/Práctica01-HTML-básico/img/AWE_CAP1.png)
+![Respuesta de los comandos:](img/AWE_CAP1.png)
 
 ## 2. Creo la base de datos y el usuario.
 
