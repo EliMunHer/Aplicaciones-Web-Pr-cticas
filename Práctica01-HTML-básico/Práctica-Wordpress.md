@@ -2,7 +2,7 @@
 
 Eliseo Muñoz Hernández | 2 CFGM de SMX (vesprada)
 
-AWE
+Aplicaciones Web (AWE)
 
 Fecha: 22-10-26
 
