@@ -111,6 +111,73 @@ Indica a qué se aplican los permisos: wordpress es la base de datos y * signifi
 
 ## 3. Descargo Wordpress y lo coloco en su carpeta.
 
+Ahora toca descargar WordPress. Lo primero es bajarlo de la web oficial y descomprimirlo, pero no lo hacemos directamente en su sitio definitivo. Lo hacemos en una carpeta temporal, y cuando comprobemos que está todo bien, lo movemos a donde tiene que ir.
+
+### 3.1. Descargar y descomprimir
+
+Primero nos metemos en `/tmp`, que es una carpeta para cosas temporales (lo que descargamos aquí es solo de paso, no queremos dejar el comprimido tirado por el servidor):
+
+```bash
+cd /tmp
+```
+
+Y descargamos la última versión desde la web oficial de WordPress:
+
+```bash
+wget https://wordpress.org/latest.tar.gz
+```
+
+El fichero viene comprimido (`.tar.gz`), así que lo descomprimimos:
+
+```bash
+tar -xzf latest.tar.gz
+```
+
+Para comprobar que se ha descomprimido bien, miramos qué hay dentro:
+
+```bash
+ls wordpress
+```
+
+### 3.2. Copiarlo a su carpeta definitiva
+
+Apache sirve las webs desde `/var/www/`, así que WordPress tiene que acabar ahí. Creamos su carpeta:
+
+```bash
+sudo mkdir -p /var/www/wordpress
+```
+
+Y copiamos todo el contenido:
+
+```bash
+sudo cp -a /tmp/wordpress/. /var/www/wordpress/
+```
+Comprobamos que ha salido bien:
+
+```bash
+ls /var/www/wordpress
+```
+
+![Contenido de /var/www/wordpress](img/AWE_CAP3.png)
+
+### 3.3. Qué hay dentro
+
+Las carpetas que más nos van a importar son estas:
+
+| Carpeta | Para qué sirve |
+|---------|----------------|
+| `wp-admin` | El panel de administración |
+| `wp-includes` | El núcleo de WordPress, esto no se toca |
+| `wp-content` | Temas, plugins e imágenes subidas. Es lo único que vamos a personalizar |
+
+### 3.4 ¿Qué carpeta guarda los temas, plugins e imágenes subidas?
+
+`wp-content`.
+
+### 3.5 ¿Por qué colocamos WordPress en su propia carpeta y no dentro de la de otro sitio?
+
+Porque cada sitio tiene su propio `DocumentRoot`. Si lo metiera dentro de la carpeta de otro, mezclaría los ficheros y podría estropear algo que ya funciona. Así cada web va por su lado y es más fácil de mantener.
+
 ## 4. Propietario y permisos.
 
 ## 5. Creo el VirtualHost de Wordpress.
