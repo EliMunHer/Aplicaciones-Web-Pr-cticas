@@ -236,7 +236,6 @@ ls -l /var/www/wordpress
 
 Con `-l` se ve la lista larga, y ahí aparecen el propietario, el grupo y los permisos de cada cosa. Deberían salir `www-data www-data` en todo, `drwxr-xr-x` en las carpetas (755) y `-rw-r--r--` en los ficheros (644).
 
-![ls -l con el propietario y los permisos](img/AWE_CAP5.png)
 
 ### 4.4 ¿Qué pasaría si el propietario fuera root?
 
@@ -396,7 +395,7 @@ No uso `admin` como nombre de usuario porque es el primero que prueban los bots 
 
 Al terminar, inicio sesión con el administrador que acabo de crear y llego al Escritorio de WordPress, que es el panel desde donde se gestiona toda la web:
 
-![Escritorio de WordPress](img/captura-wp-escritorio.png)
+![Escritorio de WordPress](img/AWE_CAP11.png)
 
 ### 6.4 ¿Qué diferencia hay entre wp_user y el usuario administrador de WordPress? ¿Dónde vive cada uno?
 
