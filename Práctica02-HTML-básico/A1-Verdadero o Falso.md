@@ -10,7 +10,7 @@ Nº | Afirmación | V/F
 3 | "El valor de un atributo siempre se escribe entre comillas" | F
 4 | "Los atributos de una etiqueta se escriben en la etiqueta de cierre" | F
 5 | "El texto de title> aparece en la pestaña del navegador" | V
-6 | "strong> y <b> se visualizan igual" | V
+6 | "strong> y b> se visualizan igual" | V
 7 | "Todo lo que escribimos dentro de head> se ve en la página" | F
 8 | "La etiqueta hr se cierra con /hr" | F
 9 | "Un comentario HTML (<!-- ... -->) se muestra en pantalla como una nota gris" | F
